@@ -1,0 +1,31 @@
+.container {
+  width: 70%;
+  height: 75vh;
+
+  background-color: white;
+  margin: 5% 0 0 15%;
+
+  border: 1px solid black;
+}
+
+.thread-message-wrapper {
+  display: flex;
+  flex-direction: row;
+
+  height: 100%;
+}
+
+.threads {
+  height: 90.7%;
+  width: 45%;
+  overflow-y: auto;
+
+  background-color: lightgreen;
+}
+
+.message-info {
+  height: 90.7%;
+  width: 55%;
+
+  background-color: lightblue;
+}

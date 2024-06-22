@@ -1,0 +1,41 @@
+.dashboard-header {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  background-color: pink;
+  align-items: center;
+}
+
+.heading {
+  font-size: 18px;
+  font-weight: 600;
+
+  padding: 15px;
+}
+
+.filters {
+  display: flex;
+  flex-direction: row;
+
+  margin: 0 20px 0 0;
+}
+
+.all-messsages-btn,
+.unread-messsages-btn {
+  width: 100px;
+  padding: 10px;
+  background-color: orange;
+
+  display: flex;
+  justify-content: center;
+}
+
+.all-messsages-btn {
+  border-right: 1px solid black;
+  border-radius: 10px 0 0 10px;
+}
+
+.unread-messsages-btn {
+  border-radius: 0 10px 10px 0;
+}

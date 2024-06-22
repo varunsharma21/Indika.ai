@@ -1,0 +1,14 @@
+.container {
+  height: 15%;
+  width: 90%;
+  margin: 2% 0 0 5%;
+
+  background-color: lightblue;
+
+  display: flex;
+  align-items: center;
+}
+
+.container p {
+  padding-left: 5px;
+}

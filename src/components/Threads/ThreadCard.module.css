@@ -1,0 +1,23 @@
+.container {
+  height: 150px;
+
+  background-color: rgb(235, 233, 233);
+  border: 1px solid rgb(199, 198, 198);
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 0 0 5%;
+
+  width: 90%;
+}
+
+.name p {
+  font-weight: 600;
+}
+
+.message {
+  width: 90%;
+  margin: 3% 0 0 5%;
+}
