@@ -46,7 +46,10 @@ function Dashboard() {
 
   const sendMessage = (e) => {
     e.preventDefault();
-    if (!filteredUser) return;
+    if (!filteredUser || inputMessage.trim() === "") {
+      alert("Please enter a message.");
+      return;
+    }
 
     const newMessage = {
       message: inputMessage,
@@ -56,7 +59,6 @@ function Dashboard() {
     };
 
     filteredUser[0].messages.unshift(newMessage);
-
     setInputMessage("");
   };
 
