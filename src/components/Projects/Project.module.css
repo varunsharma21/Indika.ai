@@ -1,0 +1,32 @@
+.container {
+  height: 20%;
+  width: 90%;
+  margin: 3% 0 0 0%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: grey;
+}
+
+.container p {
+  padding: 10px;
+}
+
+.completed {
+  height: 30px;
+  background-color: lightgreen;
+
+  display: flex;
+  align-items: center;
+  margin-right: 2%;
+}
+
+.in-progress {
+  height: 30px;
+  background-color: lightblue;
+
+  display: flex;
+  align-items: center;
+  margin-right: 2%;
+}

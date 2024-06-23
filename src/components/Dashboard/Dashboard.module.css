@@ -1,11 +1,11 @@
 .container {
   width: 70%;
-  height: 75vh;
+  height: 100vh;
 
   background-color: white;
   margin: 5% 0 0 15%;
 
-  border: 1px solid black;
+  border: 1px solid rgb(78, 78, 78);
 }
 
 .thread-message-wrapper {
@@ -23,9 +23,75 @@
   background-color: lightgreen;
 }
 
-.message-info {
+.thread-info {
   height: 90.7%;
   width: 55%;
 
-  background-color: lightblue;
+  background-color: white;
+}
+
+.name {
+  padding: 10px;
+  font-size: 18px;
+}
+
+.projects {
+  height: 35%;
+  border-top: 1px solid rgb(186, 184, 184);
+  border-bottom: 1px solid rgb(186, 184, 184);
+
+  overflow-y: scroll;
+}
+
+.projects::-webkit-scrollbar {
+  display: none;
+}
+
+.projects-heading {
+  margin: 3% 0 3% 5%;
+}
+
+.chats {
+  display: flex;
+  flex-direction: column;
+
+  height: 52%;
+  overflow-y: scroll;
+}
+
+.chats::-webkit-scrollbar {
+  display: none;
+}
+
+.sent-message {
+  align-self: flex-end;
+}
+
+.time {
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+form input {
+  height: 30px;
+  width: 75%;
+  border-radius: 20px;
+  border: 1px solid rgb(173, 172, 172);
+  padding-left: 10px;
+}
+
+form button {
+  height: 30px;
+  width: 15%;
+  margin-left: 2.5%;
+
+  border: none;
+  border-radius: 20px;
 }

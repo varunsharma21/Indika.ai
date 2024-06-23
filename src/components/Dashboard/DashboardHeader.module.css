@@ -3,8 +3,9 @@
   flex-direction: row;
 
   justify-content: space-between;
-  background-color: pink;
+  background-color: white;
   align-items: center;
+  border-bottom: 1px solid rgb(184, 184, 184);
 }
 
 .heading {
@@ -25,7 +26,7 @@
 .unread-messsages-btn {
   width: 100px;
   padding: 10px;
-  background-color: orange;
+  background-color: rgb(252, 169, 16);
 
   display: flex;
   justify-content: center;

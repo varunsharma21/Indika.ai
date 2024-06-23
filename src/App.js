@@ -12,11 +12,11 @@ function App() {
     <div className="App">
       <Header />
       <Dashboard />
-      {ctx.data.map((user) => {
+      {/* {ctx.data.map((user) => {
         return user.messages.map((messageInfo, idx) => (
           <p key={idx}>{messageInfo.message}</p>
         ));
-      })}
+      })} */}
     </div>
   );
 }
